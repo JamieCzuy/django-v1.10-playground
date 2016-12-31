@@ -153,9 +153,11 @@ git pull
 # Already-up-to-date
 ```
 
-At this point your changes are have been committed to your local repo and you know there are no conflicts in the remote repo (that is what `git pull` told us). Now use [git push](https://git-scm.com/docs/git-push) to push the changes up to GitHub to share with the rest of your team.
+At this point your changes have been committed to your local repo and you know there are no conflicts in the remote repo (that is what `git pull` told us). Now use [git push](https://git-scm.com/docs/git-push) to push the changes up to GitHub to share with the rest of your team.
 ```
 git push
+# Info about the changes
+# < source commit >..< new commit > master -> master
 ```
 
 Now no matter what happens locally you can always go back into the repo on GitHub and return to how your folder is at this point. Or you can go to a different machine to work and recreate this folder.
